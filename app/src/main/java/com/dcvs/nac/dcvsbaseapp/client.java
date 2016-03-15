@@ -10,6 +10,4 @@ public class client extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_client);
     }
-
-    public void
 }

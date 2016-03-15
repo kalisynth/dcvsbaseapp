@@ -40,7 +40,7 @@
         android:layout_width="2060dp"
         android:layout_height="1350dp"
         android:id="@+id/tabletimg"
-        android:src="@drawable/DCVSDataTablet"
+        android:src="@drawable/dcvsdatatablet"
         android:layout_alignTop="@+id/linearLayout"
         android:layout_toEndOf="@+id/linearLayout" />
 </RelativeLayout>
