@@ -17,19 +17,21 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
-        android:id="@+id/ClientBTN"
+        android:id="@+id/clientbtn"
         android:src="@drawable/clientbtn"
-        android:background="#00ffffff" />
+        android:background="#00ffffff"
+        android:onClick="clientOnclick" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/DemoBTN"
         android:layout_marginTop="50dp"
-        android:layout_below="@+id/ClientBTN"
-        android:layout_alignStart="@+id/ClientBTN"
+        android:layout_below="@+id/clientbtn"
+        android:layout_alignStart="@+id/clientbtn"
         android:background="#00ffffff"
-        android:src="@drawable/demobtn" />
+        android:src="@drawable/demobtn"
+        android:onClick="demoOnClick" />
 
     <ImageButton
         android:layout_width="wrap_content"

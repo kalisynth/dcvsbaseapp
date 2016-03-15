@@ -2,5 +2,9 @@
     <string name="app_name">DCVS Base App</string>
     <string name="action_settings">Settings</string>
     <string name="greetingTxt1">Hello, What is Your Name?</string>
-    <string name="clientNameinput">Touch here to input your name</string>
+    <string name="clientNameinput">Input your name</string>
+    <string name="title_activity_clientscreen">clientscreen</string>
+    <string name="title_activity_demoscreen">demoscreen</string>
+    <string name="title_activity_aboutscreen">aboutscreen</string>
+    <string name="title_activity_volunteerscreen">volunteerscreen</string>
 </resources>

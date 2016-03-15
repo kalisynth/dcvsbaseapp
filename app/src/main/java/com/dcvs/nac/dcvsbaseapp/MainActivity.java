@@ -1,5 +1,6 @@
 package com.dcvs.nac.dcvsbaseapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +17,22 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void clientOnclick(View v) {
+        startActivity(new Intent(MainActivity.this, clientscreen.class));
+    }
+
+    public void demoOnClick(View v) {
+        startActivity(new Intent(MainActivity.this, demoscreen.class));
+    }
+
+    public void volunteerOnClick(View v) {
+        startActivity(new Intent(MainActivity.this, volunteerscreen.class));
+    }
+
+    public void aboutOnClick(View v) {
+        startActivity(new Intent(MainActivity.this, aboutscreen.class));
     }
 
     @Override

@@ -6,8 +6,8 @@
         android:allowBackup="true"
         android:icon="@mipmap/dcvsbaseicon"
         android:label="@string/app_name"
-        android:supportsRtl="true"
         android:screenOrientation="sensorLandscape"
+        android:supportsRtl="true"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
         <activity
             android:name=".MainActivity"
@@ -19,7 +19,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".client"></activity>
+        <activity
+            android:name=".clientscreen"
+            android:label="@string/title_activity_clientscreen" />
+        <activity
+            android:name=".demoscreen"
+            android:label="@string/title_activity_demoscreen" />
+        <activity
+            android:name=".aboutscreen"
+            android:label="@string/title_activity_aboutscreen" />
+        <activity
+            android:name=".volunteerscreen"
+            android:label="@string/title_activity_volunteerscreen" />
     </application>
 
 </manifest>
