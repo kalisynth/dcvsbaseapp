@@ -23,16 +23,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".clientscreen"
+            android:name="clientscreen"
             android:label="@string/title_activity_clientscreen" />
         <activity
-            android:name=".demoscreen"
+            android:name="demoscreen"
             android:label="@string/title_activity_demoscreen" />
         <activity
-            android:name=".aboutscreen"
+            android:name="aboutscreen"
             android:label="@string/title_activity_aboutscreen" />
         <activity
-            android:name=".volunteerscreen"
+            android:name="volunteerscreen"
             android:label="@string/title_activity_volunteerscreen" />
     </application>
 

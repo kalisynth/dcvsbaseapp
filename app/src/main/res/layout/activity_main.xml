@@ -10,17 +10,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.dcvs.nac.dcvsbaseapp.MainActivity"
-    android:background="@drawable/dcvschatbg">
+    android:background="@drawable/dcvsbaseappbg">
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="200dp"
         android:layout_centerHorizontal="true"
         android:id="@+id/clientbtn"
         android:src="@drawable/clientbtn"
         android:background="#00ffffff"
-        android:onClick="clientOnclick" />
+        android:onClick="clientOnclick"
+        android:contentDescription="@string/clientbtndesc" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -31,25 +32,29 @@
         android:layout_alignStart="@+id/clientbtn"
         android:background="#00ffffff"
         android:src="@drawable/demobtn"
-        android:onClick="demoOnClick" />
+        android:onClick="demoOnClick"
+        android:contentDescription="@string/demobtndesc" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/AboutBTN"
-        android:layout_marginTop="50dp"
         android:src="@drawable/abouttbtn"
+        android:background="#00ffffff"
+        android:contentDescription="@string/aboutbtndesc"
         android:layout_below="@+id/DemoBTN"
-        android:layout_alignStart="@+id/DemoBTN"
-        android:background="#00ffffff" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
 
     <ImageButton
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/VolunteerBTN"
-        android:layout_marginStart="74dp"
         android:background="#00ffffff"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:src="@drawable/dcvsvolunteerbtn"
+        android:onClick="volunteerOnClick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/volunteerbtndesc" />
 
 </RelativeLayout>

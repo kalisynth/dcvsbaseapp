@@ -14,8 +14,6 @@ public class volunteerscreen extends Activity {
     }
 
     public void backbtnOnClick(View v){
-        Intent backIntent = new Intent(getApplicationContext(), MainActivity.class);
-        startActivityForResult(backIntent, 0);
         finish();
     }
 

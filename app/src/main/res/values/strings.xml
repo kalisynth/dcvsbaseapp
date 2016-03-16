@@ -8,5 +8,10 @@
     <string name="title_activity_aboutscreen">aboutscreen</string>
     <string name="title_activity_volunteerscreen">volunteerscreen</string>
     <string name="greetings_message">Hello, %1$s! my name is %2$s.</string>
+    <string name="tabletinfo">Skype name for the tablet is: %1$s \n Email is %1$s @gmail.com \n Password for both of the accounts is botanical12 </string>
     <string name="backbuttondesc">Back Button</string>
+    <string name="clientbtndesc">Open client screen button</string>
+    <string name="demobtndesc">Open demonstration screen button</string>
+    <string name="aboutbtndesc">Open about screen button</string>
+    <string name="volunteerbtndesc">nothing here</string>
 </resources>

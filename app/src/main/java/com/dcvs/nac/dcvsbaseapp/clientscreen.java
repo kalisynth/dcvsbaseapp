@@ -40,6 +40,7 @@ public class clientscreen extends Activity {
                 String inputText = v.getText().toString();
                 Toast.makeText(clientscreen.this, "Hi " + inputText + " My Name is " + tabletname, Toast.LENGTH_SHORT).show();
                 ((TextView)findViewById(R.id.greetingTxt)).setText(getString(R.string.greetings_message, inputText, tabletname));
+                ((TextView)findViewById(R.id.tabletinfotxt)).setText(getString(R.string.tabletinfo, tabletname));
                 return true;
             }
         });
