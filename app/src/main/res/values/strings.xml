@@ -7,4 +7,6 @@
     <string name="title_activity_demoscreen">demoscreen</string>
     <string name="title_activity_aboutscreen">aboutscreen</string>
     <string name="title_activity_volunteerscreen">volunteerscreen</string>
+    <string name="greetings_message">Hello, %1$s! my name is %2$s.</string>
+    <string name="backbuttondesc">Back Button</string>
 </resources>
