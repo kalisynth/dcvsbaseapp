@@ -14,8 +14,8 @@ public class demoscreen extends Activity {
     }
 
     public void backbtnOnClick(View v){
-        Intent backIntent = new Intent(getApplicationContext(), MainActivity.class);
-        startActivityForResult(backIntent, 0);
         finish();
     }
 }
+
+//demoscreen todo: add open demo video to video demo button, add skype to skype button, add connection status test to connection button

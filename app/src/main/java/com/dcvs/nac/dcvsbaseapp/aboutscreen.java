@@ -17,4 +17,7 @@ public class aboutscreen extends Activity {
         startActivity(new Intent(aboutscreen.this, MainActivity.class));
     }
 
+    //aboutscreen todo: add info, purpose and contact details button
+
+
 }

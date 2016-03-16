@@ -18,3 +18,5 @@ public class volunteerscreen extends Activity {
     }
 
 }
+
+//volunteerscreen todo: setup new tablet button = install and update apps + change settings + add google/skype accounts. refresh tablet button = check installed apps + update the ones that need updating + delete unauthorised apps. factory reset = factory reset the tablet.

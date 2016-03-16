@@ -30,7 +30,7 @@ public class clientscreen extends Activity {
         setContentView(R.layout.activity_clientscreen);
         Account account = getAccount(AccountManager.get(this));
         String accountName = account.name;
-        String fullname = accountName.substring(0,accountName.lastIndexOf("@"));
+        String fullname = accountName.substring(0,accountName.lastIndexOf("dcvs@"));
         final String tabletname = fullname;
 
         EditText clientnametxt = (EditText) findViewById(R.id.clientNameinput);
@@ -50,6 +50,7 @@ public class clientscreen extends Activity {
         startActivity(new Intent(clientscreen.this, MainActivity.class));
     }
 
-
+//clientscreen todo: add info, purpose, contact buttons, make it so client cannot proceed unless read all three screens.(get blurbs and info from Sarah)
+// todo: client screen loop - client enters name, presses done then the input box hides, the ok and info buttons appear, greeting text changes to Hi, clientname, my name is tablet name, provide tablet info, please click the buttons, when ok button is pressed then button text changes to Get started, when get started is pressed it will check if the 3 info buttons have been pressed and if they have will close this app and open overlays
 
 }
