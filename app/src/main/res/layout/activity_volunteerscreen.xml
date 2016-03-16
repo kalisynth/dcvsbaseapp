@@ -14,11 +14,39 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
+        android:id="@+id/backBTN"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="63dp"
         android:layout_marginBottom="58dp"
         android:src="@drawable/backbtn"
+        android:background="#00ffffff" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setupnewtabbtn"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="214dp"
+        android:src="@drawable/snt"
+        android:background="#00ffffff" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/refreshbtn"
+        android:src="@drawable/rt"
+        android:background="#00ffffff"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/setupnewtabbtn" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/factorybtn"
+        android:layout_above="@+id/backBTN"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/fr"
         android:background="#00ffffff" />
 </RelativeLayout>
