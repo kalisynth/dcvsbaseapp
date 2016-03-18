@@ -14,4 +14,11 @@
     <string name="demobtndesc">Open demonstration screen button</string>
     <string name="aboutbtndesc">Open about screen button</string>
     <string name="volunteerbtndesc">nothing here</string>
+    <string name="dcvsinfotext">Hello, Welcome to the Digital Community Visitors Service, the goal of the program is to improve social health and well being through use of Technology</string>
+    <string name="purposeinfotext">The reason %1$s tablet was given to you, is to help facilitate communication between you and other people, \n whether that is the volunteers in the program or other people you might want to talk to \n there is a limit of 3GB on your mobile data and if you use more then that then you will need to wait till the 26th of the month for the reset to happen</string>
+    <string name="contactusinfo">DCVS Office: Phone Number, Email \n DCVS - Help Desk: Phone Number, Email \n NAC: Phone Number, Email, Address</string>
+    <string name="DCVSInfoButtonDesc">Digital Community Visitor Service information button</string>
+    <string name="PurposeofTabletBTNDesc">The Purpose of the tablet information button</string>
+    <string name="ContactUsBTNDesc">How to Contact the Digital Community Visitors Service information button</string>
+
 </resources>
